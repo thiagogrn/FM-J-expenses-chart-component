@@ -5,16 +5,16 @@ import './styles/styles.css'
 
 const App = () => {
   return (
-    <div className="container">
-      <main className="wrapper">
+    <main className="container">
+      <div className="wrapper">
         <Balance />
         <Info />
-      </main>
+      </div>
       <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Thiago Garin</a>.
       </div>
-    </div>
+    </main>
   )
 }
 

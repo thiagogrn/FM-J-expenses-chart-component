@@ -3,7 +3,7 @@ import Chart from './Chart';
 
 const Info = () => {
     return(
-        <main className="info">
+        <div className="info">
             <h1 className="info__title">Spending - Last 7 days</h1>
             <div className="expenses">
                 <Chart />
@@ -19,7 +19,7 @@ const Info = () => {
                     <h2 className="last-month__text">from last month</h2>
                 </div>
             </div>
-        </main>
+        </div>
     )
 }
 
