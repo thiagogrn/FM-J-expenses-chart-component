@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FM-J-expenses-chart-component/static/css/main.d3b099c2.css",
+    "main.js": "/FM-J-expenses-chart-component/static/js/main.fb2a474f.js",
+    "index.html": "/FM-J-expenses-chart-component/index.html",
+    "static/media/logo.svg": "/FM-J-expenses-chart-component/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
+    "main.d3b099c2.css.map": "/FM-J-expenses-chart-component/static/css/main.d3b099c2.css.map",
+    "main.fb2a474f.js.map": "/FM-J-expenses-chart-component/static/js/main.fb2a474f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3b099c2.css",
+    "static/js/main.fb2a474f.js"
+  ]
+}
