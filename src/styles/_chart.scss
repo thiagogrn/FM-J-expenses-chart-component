@@ -1,0 +1,57 @@
+.chart-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal-value {
+    border-radius: 5px;
+    width: 3.3rem;
+    background-color: $soft-red;
+    cursor: pointer;
+}
+
+.normal-value:hover {
+    background-color: hsl(10, 79%, 75%);
+}
+
+.max-value {
+    border-radius: 5px;
+    width: 3.3rem;
+    background-color: $cyan;
+    cursor: pointer;
+}
+
+.max-value:hover {
+    background-color: hsl(186, 34%, 75%);
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.bar__day {
+    margin-bottom: 2.5rem;
+    color: $medium-brown;
+    letter-spacing: 0.03em;
+    margin-top: 1.2rem;
+    font-size: 1.05em;
+}
+
+.modal {
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: $dark-brown;
+    text-align: center;
+    color: $very-pale-orange;
+}
+
+.modal--disabled {
+    opacity: 0;
+}

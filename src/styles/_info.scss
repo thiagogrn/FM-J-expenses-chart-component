@@ -1,0 +1,46 @@
+.info {
+    background-color: $very-pale-orange;
+    margin-top: 1.6rem;
+    padding: 2.4rem 2rem;
+    border-radius: 10px;
+}
+
+.info__title {
+    font-size: 2.4em;
+    color: $dark-brown;
+}
+
+.expenses {
+    border-bottom: 1px solid $cream;
+}
+
+.total {
+    margin-top: 2.5rem;
+    color: $dark-brown;
+    display: flex;
+    justify-content: space-between;
+}
+
+.this-month__text {
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    color: $medium-brown;
+    font-size: 1.5em;
+}
+
+.this-month__value {
+    margin-top: 0.5rem;
+    font-size: 3em;
+}
+
+.last-month__percentage {
+    letter-spacing: -0.02em;
+    font-size: 1.55em;
+    margin-top: 1.2rem;
+    text-align: right;
+}
+
+.last-month__text {
+    font-weight: 500;
+    color: $medium-brown;
+}

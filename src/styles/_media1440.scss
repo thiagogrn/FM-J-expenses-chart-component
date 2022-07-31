@@ -1,0 +1,82 @@
+@media screen and (min-width: 1440px) {
+    // general
+
+   .wrapper {
+    width: 54rem;
+   } 
+
+    //  balance
+
+    .balance {
+        border-radius: 20px;
+        padding: 2.6rem 4rem 2.5rem 3rem  ;
+    }
+
+   .text__title {
+        font-size: 1.75em;
+    }
+
+   .text__value{
+        font-size: 3.2em;
+        margin-top: 1rem;
+   }
+
+   .logo {
+        width: 7.4rem;
+   }
+
+   //   info 
+   .info {
+        margin-top: 2.5rem;
+        padding: 3rem 4rem 3.8rem 4rem;
+   }
+
+   .info__title {
+        font-size: 3.2em;
+   }
+
+    .total {
+        margin-top: 4rem;
+    }
+
+    .this-month__text {
+        font-size: 1.73em;
+    }
+
+    .this-month__value {
+        margin-top: 0rem;
+        font-size: 4.8em;
+    }
+
+    .last-month__percentage {
+        margin-top: 2rem;
+        font-size: 1.8em;
+    }
+
+    .last-month__text {
+        font-size: 1.8em;
+    }
+
+    //  chart
+    .chart-container {
+        margin-top: 1.6rem;
+    }
+    
+    .normal-value {
+        width: 5rem;
+    }
+
+    .max-value {
+        width: 5rem;
+    }
+
+    .modal {
+        padding: 0.8rem;
+        font-size: 1.745em;
+    }
+
+    .bar__day {
+        margin-top: 1rem;
+        font-size: 1.5em;
+    }
+}
